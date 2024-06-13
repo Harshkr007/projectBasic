@@ -1,0 +1,1 @@
+This is a folder with projects files related to HTML CSS JavaScript
