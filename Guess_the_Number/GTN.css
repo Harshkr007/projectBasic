@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Open Sans;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(37, 37, 37);
+    /* display */
+    flex-direction: column;
+    align-items: center; 
+}
+.display{
+    display: flex;  
+}
+.header{
+    background-color: black;
+    color: aliceblue;
+    padding: 30px;
+    width: 100vw;
+    font-size: 30px;
+    justify-content: center;
+}
+.main{
+    background-color: rgb(96, 98, 99);
+    width: 100vw;
+    /* display */
+    align-items: center;
+    flex-direction: column;
+}
+.info_para{
+    padding: 10px;
+    margin: 5px;
+    font-size: 15px;
+    color: aliceblue;
+}
+.guessSec_para{
+    font-size: 40px;
+    color: aliceblue;
+}
+.guessSec_input{
+    justify-content:center;
+}
+.guessSec_input input{
+    margin: 10px;
+    font-size: 16px; 
+    width: 200px;
+    height: 30px; 
+    border-radius: 5px;
+}
+.guessSec_result{
+    justify-content: center;
+    color: rgb(245, 161, 65);
+    font-size: 30px;
+    font-weight: bold;
+}
+.guessSec_submit{
+    justify-content: center;
+}
+.guessSec_submit input{
+    margin: 10px;
+    padding: 10px;
+    border:2px solid balck;
+    border-radius: 5px;
+    background-color: rgb(44, 128, 184);
+    font-weight: bolder;
+}
+.previousguess,.remainGuess{
+    padding: 10px;
+    margin: 5px;
+    font-size: 15px;
+    color: aliceblue;
+}
+.hint{
+    display: flex;
+    justify-content: center;
+    color: rgb(245, 161, 65);
+    font-size: 30px;
+    font-weight: bold;
+}
+

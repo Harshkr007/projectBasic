@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess the Number</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="GTN.css" />
+  </head>
+  <body class="display">
+    <header class="header display"><h2>Number guessing game</h2></header>
+    <main class="main display">
+      <div class="info">
+        <p class="info_para">
+          Try and Guess the random number between 1 and 100
+        </p>
+        <p class="info_para">You have 10 attempts to guess the right number</p>
+      </div>
+      <div class="guessSec">
+        <p class="guessSec_para">Guess a number</p>
+        <div class="guessSec_input display">
+          <input type="number" placeholder="Your input here" />
+        </div>
+        <div class="guessSec_result display"></div>
+        <div class="guessSec_submit display">
+          <input type="submit" value="Submit guess" />
+        </div>
+      </div>
+      <div class="countSec">
+        <div class="previousguess">Previous Guesses : <span></span></div>
+        <div class="remainGuess">
+          Guesses Remaining :<span class="count">10</span>
+        </div>
+      </div>
+      <div class="hint"></div>
+    </main>
+    <script src="GTN.js"></script>
+  </body>
+</html>

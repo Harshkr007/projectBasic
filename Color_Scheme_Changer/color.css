@@ -1,0 +1,38 @@
+.body {
+  margin: 0; /* Remove default body margin */
+  padding: 0; /* Remove default body padding */
+  height: 100vh; /* Set body height to 100% of the viewport height */
+  width: 100vw; /* Set body width to 100% of the viewport width */
+}
+.head {
+  text-align: center;
+}
+.main_div {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center vertically */
+  flex-wrap: wrap; /* Allow wrapping of child elements */
+}
+.color {
+  height: 150px;
+  width: 150px;
+  display: inline-block;
+  margin: 10px;
+  padding: 5px;
+  border: 2px solid;
+}
+#red {
+  background-color: red;
+}
+#blue {
+  background-color: blue;
+}
+#green {
+  background-color: green;
+}
+#yellow {
+  background-color: yellow;
+}
+#aqua {
+  background-color: rgb(236, 240, 240);
+}

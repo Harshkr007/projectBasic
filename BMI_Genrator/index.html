@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI Genrator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="BMI.css" />
+  </head>
+  <body>
+    <form action="">
+      <div class="main">
+        <p class="para" id="heading">BMI Calculator</p>
+        <div class="input" id="secHeight">
+          <label for="height">Height in cm :</label>
+          <input type="text" id="height" />
+        </div>
+        <div class="input" id="secWeight">
+          <label for="weight">Weight in kg :</label>
+          <input type="text" id="weight" />
+        </div>
+        <div class="button">
+            <button class="calculate">Calculate</button>
+        </div>
+
+        <p id="result"></p>
+
+        <div class="guide">
+          <p class="para info">Under weight : Less than 18.6</p>
+          <p class="para info">Normal Range = 18.6 to 24.9</p>
+          <p class="para info">OverWeight = Greater than 24.9</p>
+        </div>
+      </div>
+    </form>
+
+    <script src="BMI.js"></script>
+  </body>
+</html>
