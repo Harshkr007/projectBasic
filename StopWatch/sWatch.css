@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playwrite PL";
+}
+.body{
+    background-color: rgb(51, 52, 53);
+    color: aliceblue;
+}
+.display{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    color: rgb(245, 226, 121);
+    text-decoration: underline;
+
+    margin-bottom: 30px;
+    padding: 20px;
+}
+.sw{
+    /* background-color: red; */
+    height: 35vh;
+    /* width: 20vh; */
+    align-items: center;
+}
+.para{
+    height: 35vh;
+    width: 35vh;
+    border-radius: 50%;
+    border: 5px solid gold;
+    font-size: 40px;
+    align-items: center;
+}
+.control{
+    margin: 10px;
+   
+    height: 8vh;
+  
+    
+}
+.start-stop{
+   margin-right: 5vh;
+
+   background-color: transparent;
+
+   border-radius: 50%;
+   height: 9vh;
+   width: 9vh;
+
+
+}
+.reset{
+    margin-left: 5vh;
+
+    background-color: transparent;
+
+    border-radius: 50%;
+    height: 9vh;
+    width: 9vh;
+ 
+}
+img{
+    height: 4em;
+    width: 4em;
+}
